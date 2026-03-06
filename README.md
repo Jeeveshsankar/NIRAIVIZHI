@@ -1,6 +1,6 @@
 # NIRAIVIZHI – Smart Water Monitoring & Autonomous Cleaning System
 
-NIRAIVIZHI is an integrated smart solution designed to monitor water quality, detect pollution risks, and autonomously clean water surfaces using IoT, robotics, and cloud technologies. The system focuses on improving environmental sustainability and public health, especially in rural and underserved regions.
+NIRAIVIZHI is an integrated smart solution designed to monitor water quality, detect pollution risks, and autonomously clean water surfaces using IoT, robotics, and cloud technologies. The system focuses on improving environmental sustainability and public health, especially in rural and underserved regions Specifically and beyond.
 
 ## Project Overview
 
