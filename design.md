@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Niraivizhi mobile application is a Flutter-based cross-platform system that integrates with Hydrobot IoT sensors, Firebase backend services, and an ML prediction model to provide real-time water quality monitoring and waterborne disease outbreak prediction for rural North-East India. The system serves four distinct user roles with role-based access control, supports 25+ tribal languages, and operates in offline-first mode to handle intermittent connectivity.
+The Niraivizhi mobile application is a Flutter-based cross-platform system that integrates with Hydrobot IoT sensors, Firebase backend services, and an ML prediction model to provide real-time water quality monitoring and waterborne disease outbreak prediction for rural North-East India. The system serves four distinct user roles with role-based access control, supports 25+ tribal languages, and operate in offline-first mode to handle intermittent connectivity.
 
 ### Key Design Principles
 
