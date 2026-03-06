@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Niraivizhi is a mobile application system designed for water quality monitoring and waterborne disease outbreak prediction in rural North-East India. The system integrates with Hydrobot (an autonomous water-cleaning robot with IoT sensors) and uses machine learning to correlate symptom data, lab results, and sensor readings to predict disease outbreaks. The application serves four distinct user roles: ASHA Workers, Community Members, Village Leaders, and Health Officials.
+Niraivizhi is a mobile application system designed for water quality monitoring and waterborne disease outbreak prediction in rural North-East India. The system integrates with Hydrobot (an autonomous water-cleaning robot with IoT sensors) and uses machine learning to correlate symptom data, lab results, and sensor readings to predict disease outbreak. The application serves four distinct user roles: ASHA Workers, Community Members, Village Leaders, and Health Officials.
 
 ## Glossary
 
