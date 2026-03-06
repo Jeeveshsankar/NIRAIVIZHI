@@ -5,3 +5,4 @@ output-dir: lib/generated
 untranslated-messages-file: lib/l10n/untranslated.txt
 nullable-getter: false
 use-deferred-loading: false
+
