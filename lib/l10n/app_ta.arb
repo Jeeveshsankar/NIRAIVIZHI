@@ -1,0 +1,31 @@
+{
+  "login": "உள்நுழை",
+  "@login": {
+    "description": "Button label for user login"
+  },
+
+  "backToPortal": "போர்டலுக்கு திரும்பு",
+  "@backToPortal": {
+    "description": "Navigation link to return to the main portal"
+  },
+
+  "username": "பயனர் பெயர்",
+  "@username": {
+    "description": "Label for the username input field"
+  },
+
+  "password": "கடவுச்சொல்",
+  "@password": {
+    "description": "Label for the password input field"
+  },
+
+    "healthSurveillanceSystem": "சுகாதார கண்காணிப்பு அமைப்பு",
+  "@healthSurveillanceSystem": {
+    "description": "Title text for the health surveillance system"
+  },
+
+  "email": "மின்னஞ்சல்",
+  "@email": {
+    "description": "Label for the email input field"
+  }
+}

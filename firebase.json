@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "aquaguard-b0b2c",
+          "appId": "1:855373928998:android:b34e54df09c39f6519a4e7",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "aquaguard-b0b2c",
+          "configurations": {
+            "android": "1:855373928998:android:b34e54df09c39f6519a4e7",
+            "ios": "1:855373928998:ios:1c6b52dd0920883e19a4e7",
+            "web": "1:855373928998:web:812ead9a87915c1319a4e7"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

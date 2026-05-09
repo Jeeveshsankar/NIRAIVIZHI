@@ -1,0 +1,31 @@
+{
+  "login": "Login",
+  "@login": {
+    "description": "Button label for user login"
+  },
+
+  "backToPortal": "Back to Portal",
+  "@backToPortal": {
+    "description": "Navigation link to return to the main portal"
+  },
+
+  "username": "Username",
+  "@username": {
+    "description": "Label for the username input field"
+  },
+
+  "healthSurveillanceSystem": "Health Surveillance System",
+  "@healthSurveillanceSystem": {
+    "description": "Title text for the health surveillance system"
+  },
+
+  "password": "Password",
+  "@password": {
+    "description": "Label for the password input field"
+  },
+
+  "email": "Email",
+  "@email": {
+    "description": "Label for the email input field"
+  }
+}
