@@ -1,6 +1,6 @@
 <div align="center">
   
-  # 🌊 NIRAIVIZHI
+  # NIRAIVIZHI
   ### Revolutionizing Autonomous Water Monitoring & Remediation
   
   [![Flutter](https://img.shields.io/badge/Mobile-Flutter-blue.svg?style=for-the-badge&logo=Flutter)](#)
@@ -13,47 +13,103 @@
 
 ---
 
-## 🚀 The Vision
+## The Vision
 
-Water is our most critical resource, yet over 2 billion people lack access to safely managed drinking water. At **NIRAIVIZHI**, we are building more than just a software platform; we are pioneering an end-to-end, autonomous ecosystem designed to proactively monitor, analyze, and physically clean our water bodies. 
+Water is our most critical resource, yet over 2 billion people lack access to safely managed drinking water. At NIRAIVIZHI, we are building an end-to-end, autonomous ecosystem designed to proactively monitor, analyze, and physically clean our water bodies. 
 
-Our mission is to bridge the gap between advanced IoT robotics, predictive AI, and real-world environmental health—bringing scalable, high-impact solutions to the regions that need them most.
+Our mission is to bridge the gap between advanced IoT robotics, predictive AI, and real-world environmental health, bringing scalable, high-impact solutions to the regions that need them most. Current water monitoring systems are reactive and geographically limited. By the time contamination is detected, the damage to public health has already been done. Manual cleaning is inefficient, dangerous, and economically unviable at scale.
 
-## 💡 The Problem
-Current water monitoring systems are reactive, manual, and geographically limited. By the time contamination is detected, the damage to public health—often resulting in severe water-borne disease outbreaks in underserved areas—has already been done. Manual cleaning is inefficient, dangerous, and economically unviable at scale.
+## Our Solution & Key Features
 
-## 🛠️ Our Solution
-NIRAIVIZHI introduces a paradigm shift from reactive to **proactive and autonomous**:
+NIRAIVIZHI introduces a paradigm shift from reactive to proactive and autonomous:
 
-1. **Continuous IoT Monitoring:** Our deployable sensor arrays continuously track critical water quality metrics (pH, turbidity, temperature, dissolved oxygen) in real-time.
-2. **Predictive AI Engine:** We leverage machine learning to analyze environmental data and forecast water-borne disease outbreak risks *before* they happen, triggering early-warning systems for local authorities.
-3. **Autonomous Hydro-Bots:** Our integrated robotic units deploy automatically to clean surface debris and remediate localized pollution, controlled entirely through our centralized cloud infrastructure.
-4. **Command & Control App:** A beautiful, intuitive Flutter mobile application that puts real-time analytics, robot telemetry, and critical alerts directly into the hands of community leaders and facility managers.
+- **Continuous IoT Monitoring:** Deployable sensor arrays track critical water quality metrics (pH, turbidity, temperature, dissolved oxygen) in real-time.
+- **Predictive AI Engine:** Machine learning algorithms analyze environmental data to forecast water-borne disease outbreak risks before they happen, triggering early-warning systems.
+- **Autonomous Hydro-Bots:** Integrated robotic units deploy automatically to clean surface debris and remediate localized pollution, controlled entirely through our centralized cloud infrastructure.
+- **Command & Control App:** An intuitive Flutter mobile application that puts real-time analytics, robot telemetry, and critical alerts directly into the hands of community leaders and facility managers.
 
-## 📈 Why It Matters (The Impact)
-- **Public Health:** Drastically reduces the incidence of water-borne illnesses through early detection and community alerts.
-- **Environmental Restoration:** Autonomously maintains the health of lakes, reservoirs, and rivers without human intervention.
-- **Scalability:** Designed with cost-effective IoT hardware and a serverless Firebase backend, allowing seamless scaling from a single village pond to nationwide river networks.
+## System Architecture
 
-## 💻 Technical Architecture
+Our system is built on a highly reliable, distributed architecture:
+
+1. **IoT Sensors Layer:** Collects real-time water metrics and securely transmits telemetry.
+2. **Autonomous Robotics Layer:** Actuators and navigation systems controlled via the backend to clean water surfaces.
+3. **Data & Intelligence Pipeline:** Cloud processing and Python-based machine learning analysis to detect anomalies.
+4. **Mobile Application (Flutter):** Provides visualization, alerts, and remote monitoring capabilities for administrators.
+
+## Technical Stack
+
 We have engineered a robust, modern stack optimized for reliability and scale:
 
-- **Frontend Application:** Built with **Flutter (Dart)** for a fluid, cross-platform mobile and web experience.
-- **Backend & Data Sync:** Powered by **Firebase** for real-time telemetry updates and secure authentication.
-- **Intelligence Layer:** **Python-based Machine Learning** models processing historical and live sensor data.
-- **Hardware Integration:** Custom IoT sensor arrays and autonomous navigation systems for our aquatic robotics.
+- **Frontend Application:** Flutter (Dart) for a fluid, cross-platform mobile and web experience.
+- **Backend & Data Sync:** Firebase for real-time telemetry updates and secure authentication.
+- **Intelligence Layer:** Python (Scikit-Learn, Pandas) models processing historical and live sensor data.
+- **Hardware Integration:** Raspberry Pi / Arduino with custom IoT water quality sensors.
 
-## 🛣️ Strategic Roadmap
+## Folder Structure
+
+```text
+NIRAIVIZHI/
+├── android/          # Android-specific build configurations
+├── ios/              # iOS-specific build configurations
+├── lib/              # Core Flutter application source code
+│   ├── main.dart     # Entry point of the application
+│   ├── hydrobot_integration/ # Robotics control interfaces
+│   ├── ml_api.py     # Machine learning API integration
+│   └── train_model.py # ML model training pipeline
+├── test/             # Unit and widget tests
+├── pubspec.yaml      # Dependencies and project settings
+└── README.md         # Project documentation
+```
+
+## Installation & Setup
+
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (v3.0+)
+- Dart SDK
+- Git
+
+### Initial Setup
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Jeeveshsankar/NIRAIVIZHI.git
+   cd NIRAIVIZHI
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Configure Firebase:**
+   Ensure `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) are properly placed in their respective directories if connecting to the live backend.
+
+## How to Run
+
+1. Connect a physical device or start an emulator.
+2. Run the application:
+   ```bash
+   flutter run
+   ```
+
+## Strategic Roadmap & Future Scope
+
 We are constantly innovating. Our immediate next steps include:
-- **Phase 1:** Refinement of the predictive ML models using expanded datasets.
-- **Phase 2:** Deployment of the V2 Autonomous Hydro-Bots with advanced computer vision for targeted waste removal.
-- **Phase 3:** Integration of satellite imagery for macro-level environmental tracking.
-- **Phase 4:** Securing strategic partnerships with NGOs and local governments for pilot deployments.
+- [ ] Refinement of the predictive ML models using expanded datasets.
+- [ ] Deployment of the V2 Autonomous Hydro-Bots with advanced computer vision for targeted waste removal.
+- [ ] Integration of satellite imagery for macro-level environmental tracking.
+- [ ] Multilingual support to ensure accessibility in rural and underserved areas.
+- [ ] Community crowdsourcing feature for reporting water anomalies.
 
-## 🤝 For Investors & Partners
-NIRAIVIZHI represents a unique intersection of Deep Tech, Climate Tech, and Public Health. We are actively seeking strategic partnerships, technical contributors, and early-stage investment to accelerate our hardware manufacturing and scale our software infrastructure.
+## Screenshots
 
-If you share our vision for a sustainable, water-secure future, we would love to connect.
+> **Note:** Add your project screenshots here to demonstrate the UI.
+> 
+> Dashboard View | Map & Alert View | Analytics View
+
+## For Investors & Partners
+
+NIRAIVIZHI represents a unique intersection of Deep Tech, Climate Tech, and Public Health. We are actively seeking strategic partnerships, technical contributors, and early-stage investment to accelerate our hardware manufacturing and scale our software infrastructure. If you share our vision for a sustainable, water-secure future, we would love to connect.
 
 ---
 <div align="center">
